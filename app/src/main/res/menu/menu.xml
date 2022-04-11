@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="back"
+        android:id="@+id/back"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_back_24"/>
+
+    <!-- action button for refresh -->
+    <item android:title="back"
+        android:id="@+id/next"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_next_24"/>
+
+    <!-- action button for copy -->
+    <item android:title="zommIN"
+        android:id="@+id/zoomIn"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:title="refresh"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:title="zoomOut"
+        android:id="@+id/zoomOut"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+</menu>
